@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapplication/screens/AddTask.dart';
+import 'package:myapplication/screens/LoginTask.dart';
 
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
-      home: Addtask(),
+      home: Logintask(),
     );
   }
 }
